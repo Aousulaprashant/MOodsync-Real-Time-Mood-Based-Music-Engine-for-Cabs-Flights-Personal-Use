@@ -1,8 +1,4 @@
-Here’s a complete and professional `README.md` for your **MoodSync** project, ready to include in your GitHub repository or portfolio:
 
----
-
-````markdown
 # 🎧 MoodSync – Emotion-Based Music Recommendation Platform
 
 MoodSync is an AI-powered full-stack web application that recommends music based on a user’s current emotional state. It utilizes **Face Detection**, **Text Analysis**, and **Manual Mood Input** to recommend personalized playlists from **Deezer** and **YouTube**, creating an immersive and therapeutic music experience.
