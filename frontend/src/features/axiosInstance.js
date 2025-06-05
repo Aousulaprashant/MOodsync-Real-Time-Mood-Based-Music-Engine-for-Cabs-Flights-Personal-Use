@@ -3,8 +3,7 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   //   baseURL: "http://localhost:5000/api/", // Replace with your API base URL
-  baseURL:
-    "https://m-oodsync-real-time-mood-based-music-engine-for-cabs-26qczgigv.vercel.app/api/",
+  baseURL: "https://m-oodsync-real-time-mood-based-musi.vercel.app/api/",
   headers: {
     "Content-Type": "application/json",
   },

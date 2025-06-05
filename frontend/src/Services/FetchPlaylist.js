@@ -12,7 +12,7 @@ const PlaylistComponent = ({ emotion }) => {
   const mood = emotion || location.state?.mood;
   const [isanger, setanger] = useState(false);
   const navigate = useNavigate();
-  console.log("Emotion received in PlaylistComponent:", mood);
+  // console.log("Emotion received in PlaylistComponent:", mood);
 
   const qoutes = [
     "😉Rough day? Let the rhythm melt your anger away",
@@ -28,7 +28,7 @@ const PlaylistComponent = ({ emotion }) => {
     const getPlaylists = async () => {
       try {
         const data = await fetchPlaylists(mood, "deezer");
-        console.log("Fetched playlists:", data.data.data);
+        // console.log("Fetched playlists:", data.data.data);
         if (data.angry === true) {
           setanger(true);
         }

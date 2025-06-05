@@ -18,7 +18,7 @@ const YouTubePlaylistComponent = () => {
       try {
         const result = await fetchPlaylists(mood, "youtube"); // It detects and returns YouTube if angry/fear/disgust
 
-        console.log("ytcomponent", result.data);
+        // console.log("ytcomponent", result.data);
 
         setVideos(result.data);
       } catch (err) {

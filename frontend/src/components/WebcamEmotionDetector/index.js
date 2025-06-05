@@ -151,10 +151,6 @@ const WebcamEmotionDetector = () => {
           </div>
         </div>
       )}
-
-      {/* {console.log("from sended comp: ", token)} */}
-      {/* {fetchCategories(token)} */}
-      {console.log(emotion)}
     </div>
   );
 };
