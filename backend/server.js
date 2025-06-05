@@ -28,6 +28,9 @@ app.get("/api/YtApi/playlists", async (req, res) => {
   }
 });
 
+app.get("/", async (req, res) => {
+  res.json({ message: "the backend routs are running succesfully" });
+});
 app.get("/api/DeeZer/playlists", async (req, res) => {
   const { mood } = req.query;
   console.log("current moode:", mood);
